@@ -1,0 +1,79 @@
+.bg{
+    width:327px;
+    height:674px;
+    margin:0 auto;
+    background-image: url('/images/bg_mobile.png');
+}
+.menu-set{
+    height:674px;
+    background-color:#eee ;
+    border:1px solid #999;
+}
+.menuList{
+    padding-left: 63px;
+    position: absolute;
+    bottom:83px;
+}
+.menuList .menuli{
+    position: relative;
+    list-style-type: none;
+    width:236px;
+    height:38px;
+    border:1px solid #eeeeee;
+    text-align: center;
+    line-height: 36px;
+    font-weight: 300;
+    cursor: pointer;
+    float: left;
+}
+
+#addmenu{
+    border:1px solid #44b549;
+    color: #44b549;
+}
+.hdiv{
+    position: absolute;
+    bottom:45px;
+}
+.hli{
+    padding: 0px;
+    border:1px solid #d0d0d0;
+}
+.hli li{
+    list-style-type: none;
+    background-color: #fff;
+    font-weight: bolder;
+    font-size: 14px;
+    color:#999;
+    height: 38px;
+    border:1px solid #eee;
+    /*width:118px;*/
+}
+.menuli span{
+    display: block;
+    width:100%;
+    height: 100%;
+}
+.hli li:hover{
+    background-color: #eee;
+}
+.arrow{
+    position: absolute;
+    left: 50%;
+    margin-left: -6px;
+}
+.arrow-out{
+    bottom: -6px;
+    display: inline-block;
+    width: 0;
+    height: 0;
+    border-width: 6px;
+    border-style: dashed;
+    border-color: transparent;
+    border-bottom-width: 0;
+    border-top-color: #d0d0d0;
+    border-top-style: solid;
+}
+.all{
+    display: none;
+}
